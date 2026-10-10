@@ -4,10 +4,10 @@ const path = require('path');
 const glob = require('glob');
 
 // Globals
-const PATH_INPUT = path.resolve(__dirname, '../msg/json/en.json');
-// If you want to generate js files for other languages, comment out the line above,
-// and use the one below instead.
-// const PATH_INPUT = path.resolve(__dirname, '../msg/json/*.json');
+// Pass a locale code (for example, `ja`) to generate that locale's JS file.
+// Defaults to English to preserve the existing `npm run translate` behavior.
+const LOCALE = process.argv[2] || 'en';
+const PATH_INPUT = path.resolve(__dirname, `../msg/json/${LOCALE}.json`);
 const PATH_OUTPUT = path.resolve(__dirname, '../msg/js');
 const CONCURRENCY_LIMIT = 4;
 
