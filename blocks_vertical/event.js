@@ -102,7 +102,7 @@ Blockly.Blocks['event_whenstopclicked'] = {
   init: function () {
     this.jsonInit({
       "id": "event_whenstopclicked",
-      "message0": "when %1 clicked",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_WHEN_ARG1_CLICKED,
       "args0": [
         {
           "type": "field_image",
@@ -359,7 +359,7 @@ Blockly.Blocks['event_whenkeyhit'] = {
   init: function () {
     this.jsonInit({
       "id": "event_whenkeyhit",
-      "message0": "when %1 key hit",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_WHEN_ARG1_KEY_HIT,
       "args0": [
         {
           "type": "field_dropdown",
@@ -424,7 +424,7 @@ Blockly.Blocks['event_whenmousescrolled'] = {
   init: function () {
     this.jsonInit({
       "id": "event_whenmousescrolled",
-      "message0": "when mouse is scrolled %1",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_WHEN_MOUSE_IS_SCROLLED_ARG1,
       "args0": [
         {
           "type": "field_dropdown",
@@ -445,7 +445,7 @@ Blockly.Blocks["event_always"] = {
   init: function() {
     this.jsonInit({
       "inputsInline": true,
-      "message0": "always",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_ALWAYS,
       "args0": [],
       "category": Blockly.Categories.event,
       "extensions": ["colours_event", "shape_hat"]
@@ -457,7 +457,7 @@ Blockly.Blocks["event_whenanything"] = {
   init: function() {
     this.jsonInit({
       "inputsInline": true,
-      "message0": "when %1",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_WHEN_ARG1,
       "args0": [
         {
           "type": "input_value",

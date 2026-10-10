@@ -130,7 +130,7 @@ Blockly.Blocks["looks_setFont"] = {
           "name":"size"
         }
       ],
-      "message0":"set font to %1 with font size %2",
+      "message0":Blockly.Msg.PM_CUSTOM_BLOCK_SET_FONT_TO_ARG1_WITH_FONT_SIZE_ARG2,
       "category": Blockly.Categories.looks,
       "extensions": ["colours_looks", "shape_statement"]
     });
@@ -156,7 +156,7 @@ Blockly.Blocks["looks_setColor"] = {
           "name":"color"
         }
       ],
-      "message0":"set %1 color to %2",
+      "message0":Blockly.Msg.PM_CUSTOM_BLOCK_SET_ARG1_COLOR_TO_ARG2,
       "category": Blockly.Categories.looks,
       "extensions": ["colours_looks", "shape_statement"]
     });
@@ -187,7 +187,7 @@ Blockly.Blocks["looks_setShape"] = {
           "name":"color"
         }
       ],
-      "message0":"set text bubble %1 to %2",
+      "message0":Blockly.Msg.PM_CUSTOM_BLOCK_SET_TEXT_BUBBLE_ARG1_TO_ARG2,
       "category": Blockly.Categories.looks,
       "extensions": ["colours_looks", "shape_statement"]
     });
@@ -281,7 +281,7 @@ Blockly.Blocks['looks_changeVisibilityOfSpriteShow'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": "show %1",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_SHOW_ARG1,
       "inputsInline": true,
       "args0": [
         {
@@ -302,7 +302,7 @@ Blockly.Blocks['looks_changeVisibilityOfSpriteHide'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": "hide %1",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_HIDE_ARG1,
       "inputsInline": true,
       "args0": [
         {
@@ -342,7 +342,7 @@ Blockly.Blocks["looks_setTintColor"] = {
           "name":"color"
         }
       ],
-      "message0":"set tint color to %1",
+      "message0":Blockly.Msg.PM_CUSTOM_BLOCK_SET_TINT_COLOR_TO_ARG1,
       "category": Blockly.Categories.looks,
       "extensions": ["colours_looks", "shape_statement"]
     });
@@ -355,7 +355,7 @@ Blockly.Blocks['looks_tintColor'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": "tint color",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_TINT_COLOR,
       "category": Blockly.Categories.looks,
       "checkboxInFlyout": true,
       "extensions": ["colours_looks", "output_string"]
@@ -634,7 +634,7 @@ Blockly.Blocks['looks_previouscostume'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "previous costume",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_PREVIOUS_COSTUME,
       "category": Blockly.Categories.looks,
       "extensions": ["colours_looks", "shape_statement"]
     });
@@ -746,7 +746,7 @@ Blockly.Blocks['looks_goTargetLayer'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "go %1 %2",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_GO_ARG1_ARG2,
       "args0": [
         {
           "type": "field_dropdown",
@@ -772,7 +772,7 @@ Blockly.Blocks["looks_layersSetLayer"] = {
     this.jsonInit({
       "inputsInline": true,
       "category": "looks",
-      "message0": "go to layer %1",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_GO_TO_LAYER_ARG1,
       "args0": [
         {
           "type": "input_value",
@@ -792,7 +792,7 @@ Blockly.Blocks["looks_layersGetLayer"] = {
     this.jsonInit({
       "inputsInline": true,
       "category": "looks",
-      "message0": "layer",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_LAYER,
       "checkboxInFlyout": true,
       "extensions": [
         "output_number",
@@ -893,7 +893,7 @@ Blockly.Blocks['looks_previousbackdrop'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "previous backdrop",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_PREVIOUS_BACKDROP,
       "category": Blockly.Categories.looks,
       "extensions": ["colours_looks", "shape_statement"]
     });
@@ -915,7 +915,7 @@ Blockly.Blocks["looks_setStretch"] = {
           "name": "Y"
         }
       ],
-      "message0": "set stretch to x: %1 y: %2",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_SET_STRETCH_TO_X_ARG1_Y_ARG2,
       "extensions": [
         "shape_statement",
         "colours_looks"
@@ -939,7 +939,7 @@ Blockly.Blocks["looks_changeStretch"] = {
           "name": "Y"
         }
       ],
-      "message0": "change stretch by x: %1 y: %2",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_CHANGE_STRETCH_BY_X_ARG1_Y_ARG2,
       "extensions": [
         "shape_statement",
         "colours_looks"
@@ -954,7 +954,7 @@ Blockly.Blocks["looks_stretchGetX"] = {
       "inputsInline": true,
       "checkboxInFlyout": true,
       "category": "looks",
-      "message0": "x stretch",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_X_STRETCH,
       "extensions": [
         "output_string",
         "colours_looks"
@@ -969,7 +969,7 @@ Blockly.Blocks["looks_stretchGetY"] = {
       "inputsInline": true,
       "checkboxInFlyout": true,
       "category": "looks",
-      "message0": "y stretch",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_Y_STRETCH,
       "extensions": [
         "output_string",
         "colours_looks"
@@ -983,7 +983,7 @@ Blockly.Blocks["looks_getSpriteVisible"] = {
     this.jsonInit({
       "inputsInline": true,
       "category": "looks",
-      "message0": "visible?",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_VISIBLE,
       "checkboxInFlyout": true,
       "extensions": [
         "output_boolean",
@@ -1020,7 +1020,7 @@ Blockly.Blocks["looks_getOtherSpriteVisible"] = {
     this.jsonInit({
       "inputsInline": true,
       "category": "looks",
-      "message0": "is %1 visible?",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_IS_ARG1_VISIBLE,
       "args0": [
         {
           "type": "input_value",
@@ -1079,7 +1079,7 @@ Blockly.Blocks["looks_sayHeight"] = {
     this.jsonInit({
       "inputsInline": true,
       "category": "looks",
-      "message0": "bubble height",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_BUBBLE_HEIGHT,
       "checkboxInFlyout": true,
       "extensions": [
         "output_string",
@@ -1094,7 +1094,7 @@ Blockly.Blocks["looks_sayWidth"] = {
     this.jsonInit({
       "inputsInline": true,
       "category": "looks",
-      "message0": "bubble width",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_BUBBLE_WIDTH,
       "checkboxInFlyout": true,
       "extensions": [
         "output_string",
@@ -1111,7 +1111,7 @@ Blockly.Blocks['looks_stoptalking'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": "stop speaking",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_STOP_SPEAKING,
       "category": Blockly.Categories.looks,
       "extensions": ["colours_looks", "shape_statement"]
     });

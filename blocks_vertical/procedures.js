@@ -1315,7 +1315,7 @@ Blockly.Blocks['argument_editor_command'] = {
 Blockly.Blocks['procedures_set'] = {
   init: function() {
     this.jsonInit({
-      "message0": 'set %1 to %2',
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_SET_ARG1_TO_ARG2,
       "args0": [
         {
           "type": "input_value",
@@ -1334,7 +1334,7 @@ Blockly.Blocks['procedures_set'] = {
 Blockly.Blocks['procedures_return'] = {
   init: function() {
     this.jsonInit({
-      "message0": 'return %1',
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_RETURN_ARG1,
       "args0": [
         {
           "type": "input_value",

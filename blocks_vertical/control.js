@@ -126,7 +126,7 @@ Blockly.Blocks['control_repeatForSeconds'] = {
   init: function() {
     this.jsonInit({
       "id": "control_repeatForSeconds",
-      "message0": "repeat for %1 seconds",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_REPEAT_FOR_ARG1_SECONDS,
       "message1": "%1", // Statement
       "message2": "%1", // Icon
       "lastDummyAlign2": "RIGHT",
@@ -235,7 +235,7 @@ Blockly.Blocks['control_expandableIf'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": 'hidden %1 %2',
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_HIDDEN_ARG1_ARG2,
       "args0": [
         {
           "type": "field_expandable_remove",
@@ -416,9 +416,9 @@ Blockly.Blocks['control_try_catch'] = {
   init: function () {
     this.jsonInit({
       "type": "control_try_catch",
-      "message0": "try to do",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_TRY_TO_DO,
       "message1": "%1",
-      "message2": "if a block errors",
+      "message2": Blockly.Msg.PM_CUSTOM_BLOCK_IF_A_BLOCK_ERRORS,
       "message3": "%1",
       "args1": [
         {
@@ -443,7 +443,7 @@ Blockly.Blocks['control_try_catch'] = {
 Blockly.Blocks['control_throw_error'] = {
   init: function () {
     this.jsonInit({
-      "message0": 'throw error %1',
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_THROW_ERROR_ARG1,
       "args0": [
         {
           "type": "input_value",
@@ -463,7 +463,7 @@ Blockly.Blocks['control_error'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": "error",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_ERROR,
       "category": Blockly.Categories.control,
       "extensions": ["colours_control", "output_string"]
     });
@@ -554,7 +554,7 @@ Blockly.Blocks['control_waitsecondsoruntil'] = {
   init: function() {
     this.jsonInit({
       "id": "control_waitsecondsoruntil",
-      "message0": "wait %1 seconds or until %2",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_WAIT_ARG1_SECONDS_OR_UNTIL_ARG2,
       "args0": [
         {
           "type": "input_value",
@@ -580,7 +580,7 @@ Blockly.Blocks['control_waittick'] = {
   init: function() {
     this.jsonInit({
       "id": "control_waittick",
-      "message0": "wait until next tick",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_WAIT_UNTIL_NEXT_TICK,
       "args0": [],
       "category": Blockly.Categories.control,
       "extensions": ["colours_control", "shape_statement"]
@@ -803,7 +803,7 @@ Blockly.Blocks['control_delete_clones_of'] = {
   init: function() {
     this.jsonInit({
       "id": "control_delete_clones_of",
-      "message0": "delete clones of %1",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_DELETE_CLONES_OF_ARG1,
       "args0": [
         {
           "type": "input_value",
@@ -839,7 +839,7 @@ Blockly.Blocks['control_is_clone'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": "is clone?",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_IS_CLONE,
       "category": Blockly.Categories.control,
       "extensions": ["colours_control", "output_boolean"]
     });
@@ -876,7 +876,7 @@ Blockly.Blocks['control_stop_sprite'] = {
   init: function() {
     this.jsonInit({
       "id": "control_stop_sprite",
-      "message0": "stop %1",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_STOP_ARG1,
       "args0": [
         {
           "type": "input_value",
@@ -914,7 +914,7 @@ Blockly.Blocks['control_run_as_sprite_menu'] = {
 Blockly.Blocks['control_run_as_sprite'] = {
   init: function() {
     this.jsonInit({
-      "message0": 'as %1 do',
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_AS_ARG1_DO,
       "message1": "%1",
       "args0": [
         {
@@ -942,7 +942,7 @@ Blockly.Blocks['control_inline_stack_output'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": 'inline block',
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_INLINE_BLOCK,
       "message1": "%1",
       "args1": [
         {
@@ -995,7 +995,7 @@ Blockly.Blocks['control_decr_counter'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": "decrement counter",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_DECREMENT_COUNTER,
       "category": Blockly.Categories.control,
       "extensions": ["colours_control", "shape_statement"]
     });
@@ -1009,7 +1009,7 @@ Blockly.Blocks['control_set_counter'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": "set counter to %1",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_SET_COUNTER_TO_ARG1,
       "args0": [
         {
           "type": "input_value",
@@ -1070,7 +1070,7 @@ Blockly.Blocks['control_all_at_once'] = {
 Blockly.Blocks['control_new_script'] = {
   init: function () {
     this.jsonInit({
-      "message0": "new script",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_NEW_SCRIPT,
       "message1": "%1", // Statement
       "args1": [
         {
@@ -1089,7 +1089,7 @@ Blockly.Blocks["control_backToGreenFlag"] = {
   init: function() {
     this.jsonInit({
       "inputsInline": true,
-      "message0": "run %1",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_RUN_ARG1,
       "args0": [
         {
           "type": "field_image",
@@ -1110,7 +1110,7 @@ Blockly.Blocks["control_if_return_else_return"] = {
   init: function() {
     this.jsonInit({
       "inputsInline": true,
-      "message0": "if %1 then %2 else %3",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_IF_ARG1_THEN_ARG2_ELSE_ARG3,
       "args0": [
         {
           "type": "input_value",
@@ -1137,7 +1137,7 @@ Blockly.Blocks["control_if_return_else_return"] = {
 Blockly.Blocks['control_switch'] = {
   init: function() {
     this.jsonInit({
-      "message0": 'switch %1',
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_SWITCH_ARG1,
       "message1": "%1",
       "args0": [
         {
@@ -1161,9 +1161,9 @@ Blockly.Blocks['control_switch'] = {
 Blockly.Blocks['control_switch_default'] = {
   init: function() {
     this.jsonInit({
-      "message0": 'switch %1',
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_SWITCH_ARG1,
       "message1": "%1",
-      "message2": "default",
+      "message2": Blockly.Msg.PM_CUSTOM_BLOCK_DEFAULT,
       "message3": "%1",
       "args0": [
         {
@@ -1194,7 +1194,7 @@ Blockly.Blocks['control_switch_default'] = {
 Blockly.Blocks['control_case'] = {
   init: function() {
     this.jsonInit({
-      "message0": 'case %1',
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_CASE_ARG1,
       "message1": "%1",
       "args0": [
         {
@@ -1218,7 +1218,7 @@ Blockly.Blocks['control_case'] = {
 Blockly.Blocks['control_case_next'] = {
   init: function() {
     this.jsonInit({
-      "message0": 'run next case when %1',
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_RUN_NEXT_CASE_WHEN_ARG1,
       "args0": [
         {
           "type": "input_value",
@@ -1234,7 +1234,7 @@ Blockly.Blocks['control_case_next'] = {
 Blockly.Blocks['control_exitCase'] = {
   init: function () {
     this.jsonInit({
-      "message0": 'exit case %1',
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_EXIT_CASE_ARG1,
       "args0": [
         {
           "type": "field_image",
@@ -1254,7 +1254,7 @@ Blockly.Blocks['control_exitCase'] = {
 Blockly.Blocks['control_exitLoop'] = {
   init: function() {
     this.jsonInit({
-      "message0": 'escape loop %1',
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_ESCAPE_LOOP_ARG1,
       "args0": [
         {
           "type": "field_image",
@@ -1345,7 +1345,7 @@ Blockly.Blocks['control_exitLoop'] = {
 Blockly.Blocks['control_continueLoop'] = {
   init: function() {
     this.jsonInit({
-      "message0": 'continue loop %1',
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_CONTINUE_LOOP_ARG1,
       "args0": [
         {
           "type": "field_image",
@@ -1365,7 +1365,7 @@ Blockly.Blocks['control_continueLoop'] = {
 Blockly.Blocks['control_from_to'] = {
   init: function() {
     this.jsonInit({
-      "message0": "for %1 of %2 to %3 %4",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_FOR_ARG1_OF_ARG2_TO_ARG3_ARG4,
       "message1": "%1",
       "lastDummyAlign1": "RIGHT",
       "args0": [
@@ -1405,7 +1405,7 @@ Blockly.Blocks['control_from_to'] = {
 Blockly.Blocks['control_from_to_index'] = {
   init: function () {
     this.jsonInit({
-      "message0": "index",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_INDEX,
       "canDragDuplicate": true,
       "category": Blockly.Categories.control,
       "extensions": ["colours_control", "output_number"]

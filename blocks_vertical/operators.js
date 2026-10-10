@@ -905,7 +905,7 @@ Blockly.Blocks['operator_expandablejoininputs'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": 'join %1 %2',
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_JOIN_ARG1_ARG2,
       "args0": [
         {
           "type": "field_expandable_remove",
@@ -1163,7 +1163,7 @@ Blockly.Blocks["operator_regexmatch"] = {
   init: function() {
     this.jsonInit({
       "inputsInline": true,
-      "message0": "match %1 with regex %2 %3",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_MATCH_ARG1_WITH_REGEX_ARG2_ARG3,
       "args0": [
         {
           "type": "input_value",
@@ -1188,7 +1188,7 @@ Blockly.Blocks["operator_replaceAll"] = {
   init: function() {
     this.jsonInit({
       "inputsInline": true,
-      "message0": "in %1 replace all %2 with %3",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_IN_ARG1_REPLACE_ALL_ARG2_WITH_ARG3,
       "args0": [
         {
           "type": "input_value",
@@ -1213,7 +1213,7 @@ Blockly.Blocks["operator_replaceFirst"] = {
   init: function() {
     this.jsonInit({
       "inputsInline": true,
-      "message0": "in %1 replace first %2 with %3",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_IN_ARG1_REPLACE_FIRST_ARG2_WITH_ARG3,
       "args0": [
         {
           "type": "input_value",
@@ -1238,7 +1238,7 @@ Blockly.Blocks["operator_getLettersFromIndexToIndexInText"] = {
   init: function() {
     this.jsonInit({
       "inputsInline": true,
-      "message0": "letters from %1 up to before %2 in %3",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_LETTERS_FROM_ARG1_UP_TO_BEFORE_ARG2_IN_ARG3,
       "args0": [
         {
           "type": "input_value",
@@ -1293,7 +1293,7 @@ Blockly.Blocks["operator_readLineInMultilineText"] = {
   init: function() {
     this.jsonInit({
       "inputsInline": true,
-      "message0": "read line %1 in %2",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_READ_LINE_ARG1_IN_ARG2,
       "args0": [
         {
           "type": "input_value",
@@ -1314,7 +1314,7 @@ Blockly.Blocks["operator_newLine"] = {
   init: function() {
     this.jsonInit({
       "inputsInline": true,
-      "message0": "new line",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_NEW_LINE,
       "args0": [],
       "category": Blockly.Categories.operators,
       "extensions": ["colours_operators", "output_string"]
@@ -1326,7 +1326,7 @@ Blockly.Blocks["operator_tabCharacter"] = {
   init: function() {
     this.jsonInit({
       "inputsInline": true,
-      "message0": "tab character",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_TAB_CHARACTER,
       "args0": [],
       "category": Blockly.Categories.operators,
       "extensions": ["colours_operators", "output_string"]
@@ -1372,7 +1372,7 @@ Blockly.Blocks["operator_character_to_code"] = {
   init: function () {
     this.jsonInit({
       "inputsInline": true,
-      "message0": "character %1 to id",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_CHARACTER_ARG1_TO_ID,
       "args0": [
         {
           "type": "input_value",
@@ -1389,7 +1389,7 @@ Blockly.Blocks["operator_code_to_character"] = {
   init: function () {
     this.jsonInit({
       "inputsInline": true,
-      "message0": "id %1 to character",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_ID_ARG1_TO_CHARACTER,
       "args0": [
         {
           "type": "input_value",
@@ -1406,7 +1406,7 @@ Blockly.Blocks["operator_lerpFunc"] = {
   init: function() {
     this.jsonInit({
       "inputsInline": true,
-      "message0": "interpolate %1 to %2 by %3",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_INTERPOLATE_ARG1_TO_ARG2_BY_ARG3,
       "args0": [
         {
           "type": "input_value",
@@ -1522,7 +1522,7 @@ Blockly.Blocks["operator_constrainnumber"] = {
   init: function() {
     this.jsonInit({
       "inputsInline": true,
-      "message0": "constrain %1 min %2 max %3",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_CONSTRAIN_ARG1_MIN_ARG2_MAX_ARG3,
       "args0": [
         {
           "type": "input_value",
@@ -1547,7 +1547,7 @@ Blockly.Blocks["operator_trueBoolean"] = {
   init: function() {
     this.jsonInit({
       "inputsInline": true,
-      "message0": "true",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_TRUE,
       "args0": [],
       "category": Blockly.Categories.operators,
       "extensions": ["colours_operators", "output_boolean"]
@@ -1559,7 +1559,7 @@ Blockly.Blocks["operator_falseBoolean"] = {
   init: function() {
     this.jsonInit({
       "inputsInline": true,
-      "message0": "false",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_FALSE,
       "args0": [],
       "category": Blockly.Categories.operators,
       "extensions": ["colours_operators", "output_boolean"]
@@ -1571,7 +1571,7 @@ Blockly.Blocks["operator_randomBoolean"] = {
   init: function() {
     this.jsonInit({
       "inputsInline": true,
-      "message0": "random",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_RANDOM,
       "args0": [],
       "category": Blockly.Categories.operators,
       "extensions": ["colours_operators", "output_boolean"]
@@ -1583,7 +1583,7 @@ Blockly.Blocks["operator_indexOfTextInText"] = {
   init: function() {
     this.jsonInit({
       "inputsInline": true,
-      "message0": "index of %1 in %2",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_INDEX_OF_ARG1_IN_ARG2,
       "args0": [
         {
           "type": "input_value",
@@ -1604,7 +1604,7 @@ Blockly.Blocks["operator_lastIndexOfTextInText"] = {
   init: function() {
     this.jsonInit({
       "inputsInline": true,
-      "message0": "last index of %1 in %2",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_LAST_INDEX_OF_ARG1_IN_ARG2,
       "args0": [
         {
           "type": "input_value",
@@ -1625,7 +1625,7 @@ Blockly.Blocks["operator_countAppearTimes"] = {
   init: function() {
     this.jsonInit({
       "inputsInline": true,
-      "message0": "amount of times %1 appears in %2",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_AMOUNT_OF_TIMES_ARG1_APPEARS_IN_ARG2,
       "args0": [
         {
           "type": "input_value",

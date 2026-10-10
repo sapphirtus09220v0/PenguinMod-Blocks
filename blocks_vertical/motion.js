@@ -55,7 +55,7 @@ Blockly.Blocks['motion_movebacksteps'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "move back %1 steps",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_MOVE_BACK_ARG1_STEPS,
       "args0": [
         {
           "type": "input_value",
@@ -75,7 +75,7 @@ Blockly.Blocks['motion_moveupdownsteps'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "move %1 %2 steps",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_MOVE_ARG1_ARG2_STEPS,
       "args0": [
         {
           "type": "field_dropdown",
@@ -155,7 +155,7 @@ Blockly.Blocks['motion_turnrightaroundxy'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": "turn %1 %2 degrees around x: %3 y: %4",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_TURN_ARG1_ARG2_DEGREES_AROUND_X_ARG3_Y_ARG4,
       "args0": [
         {
           "type": "field_image",
@@ -189,7 +189,7 @@ Blockly.Blocks['motion_turnleftaroundxy'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": "turn %1 %2 degrees around x: %3 y: %4",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_TURN_ARG1_ARG2_DEGREES_AROUND_X_ARG3_Y_ARG4,
       "args0": [
         {
           "type": "field_image",
@@ -269,7 +269,7 @@ Blockly.Blocks['motion_turnaround'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "turn around",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_TURN_AROUND,
       "category": Blockly.Categories.motion,
       "extensions": ["colours_motion", "shape_statement"]
     });
@@ -283,7 +283,7 @@ Blockly.Blocks['motion_pointinrandomdirection'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": "point in random direction",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_POINT_IN_RANDOM_DIRECTION,
       "category": Blockly.Categories.motion,
       "extensions": ["colours_motion", "shape_statement"]
     });
@@ -297,7 +297,7 @@ Blockly.Blocks['motion_pointtowardsxy'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": "point towards x: %1 y: %2",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_POINT_TOWARDS_X_ARG1_Y_ARG2,
       "args0": [
         {
           "type": "input_value",
@@ -439,7 +439,7 @@ Blockly.Blocks['motion_glidedirectionstepsinseconds'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "glide %1 steps %2 in %3 secs",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_GLIDE_ARG1_STEPS_ARG2_IN_ARG3_SECS,
       "args0": [
         {
           "type": "input_value",
@@ -523,7 +523,7 @@ Blockly.Blocks['motion_changebyxy'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "change by x: %1 y: %2",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_CHANGE_BY_X_ARG1_Y_ARG2,
       "args0": [
         {
           "type": "input_value",
@@ -641,7 +641,7 @@ Blockly.Blocks['motion_ifonspritebounce'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": "if touching %1, bounce",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_IF_TOUCHING_ARG1_BOUNCE,
       "args0": [
         {
           "type": "input_value",
@@ -661,7 +661,7 @@ Blockly.Blocks['motion_ifonxybounce'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": "if touching x: %1 y: %2, bounce",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_IF_TOUCHING_X_ARG1_Y_ARG2_BOUNCE,
       "args0": [
         {
           "type": "input_value",
@@ -801,7 +801,7 @@ Blockly.Blocks['motion_move_sprite_to_scene_side'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": "move to stage %1",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_MOVE_TO_STAGE_ARG1,
       "args0": [
         {
           "type": "field_dropdown",

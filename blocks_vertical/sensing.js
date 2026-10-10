@@ -313,7 +313,7 @@ Blockly.Blocks['sensing_keyhit'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": "key %1 hit?",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_KEY_ARG1_HIT,
       "args0": [
         {
           "type": "input_value",
@@ -333,7 +333,7 @@ Blockly.Blocks['sensing_mousescrolling'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": "is mouse scrolling %1?",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_IS_MOUSE_SCROLLING_ARG1,
       "args0": [
         {
           "type": "input_value",
@@ -480,7 +480,7 @@ Blockly.Blocks['sensing_mouseclicked'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "mouse clicked?",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_MOUSE_CLICKED,
       "category": Blockly.Categories.sensing,
       "checkboxInFlyout": true,
       "extensions": ["colours_sensing", "output_boolean"]
@@ -495,7 +495,7 @@ Blockly.Blocks['sensing_fingerdown'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "finger %1 down?",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_FINGER_ARG1_DOWN,
       "args0": [
         {
           "type": "input_value",
@@ -515,7 +515,7 @@ Blockly.Blocks['sensing_fingertapped'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "finger %1 tapped?",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_FINGER_ARG1_TAPPED,
       "args0": [
         {
           "type": "input_value",
@@ -565,7 +565,7 @@ Blockly.Blocks['sensing_fingerx'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "finger %1 x",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_FINGER_ARG1_X,
       "args0": [
         {
           "type": "input_value",
@@ -585,7 +585,7 @@ Blockly.Blocks['sensing_fingery'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "finger %1 y",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_FINGER_ARG1_Y,
       "args0": [
         {
           "type": "input_value",
@@ -664,7 +664,7 @@ Blockly.Blocks['sensing_getdragmode'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": "draggable?",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_DRAGGABLE,
       "category": Blockly.Categories.sensing,
       "checkboxInFlyout": true,
       "extensions": ["colours_sensing", "output_boolean"]
@@ -802,7 +802,7 @@ Blockly.Blocks['sensing_set_of'] = {
    */
   init: function() {
     this.jsonInit({
-      "message0": 'set %1 of %2 to %3',
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_SET_ARG1_OF_ARG2_TO_ARG3,
       "args0": [
         {
           "type": "field_dropdown",
@@ -902,7 +902,7 @@ Blockly.Blocks['sensing_loggedin'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": 'logged in?',
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_LOGGED_IN,
       "category": Blockly.Categories.sensing,
       "checkboxInFlyout": true,
       "extensions": ["colours_sensing", "output_boolean"]
@@ -930,7 +930,7 @@ Blockly.Blocks["sensing_regextest"] = {
   init: function() {
     this.jsonInit({
       "inputsInline": true,
-      "message0": "test regex %2 %3 with text %1",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_TEST_REGEX_ARG2_ARG3_WITH_TEXT_ARG1,
       "args0": [
         {
           "type": "input_value",
@@ -1006,7 +1006,7 @@ Blockly.Blocks["sensing_mobile"] = {
   init: function() {
     this.jsonInit({
       "inputsInline": true,
-      "message0": "mobile?",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_MOBILE,
       "args0": [],
       "category": Blockly.Categories.sensing,
       "extensions": ["colours_sensing", "output_boolean"]
@@ -1037,7 +1037,7 @@ Blockly.Blocks["sensing_getspritewithattrib"] = {
   init: function() {
     this.jsonInit({
       "inputsInline": true,
-      "message0": "get sprite with %1 set to %2",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_GET_SPRITE_WITH_ARG1_SET_TO_ARG2,
       "args0": [
         {
           "type": "input_value",
@@ -1057,7 +1057,7 @@ Blockly.Blocks["sensing_getspritewithattrib"] = {
 Blockly.Blocks['sensing_distanceTo'] = {
   init: function() {
     this.jsonInit({
-      "message0": 'distance from %1 %2 to %3 %4',
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_DISTANCE_FROM_ARG1_ARG2_TO_ARG3_ARG4,
       "args0": [
         {
           "type": "input_value",
@@ -1085,7 +1085,7 @@ Blockly.Blocks['sensing_distanceTo'] = {
 Blockly.Blocks['sensing_directionTo'] = {
   init: function() {
     this.jsonInit({
-      "message0": 'direction to %1 %2 from %3 %4',
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_DIRECTION_TO_ARG1_ARG2_FROM_ARG3_ARG4,
       "args0": [
         {
           "type": "input_value",
@@ -1113,7 +1113,7 @@ Blockly.Blocks['sensing_directionTo'] = {
 Blockly.Blocks['sensing_isUpperCase'] = {
   init: function() {
     this.jsonInit({
-      "message0": 'is character %1 uppercase?',
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_IS_CHARACTER_ARG1_UPPERCASE,
       "args0": [
         {
           "type": "input_value",
@@ -1133,7 +1133,7 @@ Blockly.Blocks['sensing_getoperatingsystem'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": "operating system",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_OPERATING_SYSTEM,
       "category": Blockly.Categories.sensing,
       "extensions": ["colours_sensing", "output_string"]
     });
@@ -1147,7 +1147,7 @@ Blockly.Blocks['sensing_getbrowser'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": "browser",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_BROWSER,
       "category": Blockly.Categories.sensing,
       "extensions": ["colours_sensing", "output_string"]
     });
@@ -1161,7 +1161,7 @@ Blockly.Blocks['sensing_geturl'] = {
    */
   init: function () {
     this.jsonInit({
-      "message0": "url",
+      "message0": Blockly.Msg.PM_CUSTOM_BLOCK_URL,
       "category": Blockly.Categories.sensing,
       "extensions": ["colours_sensing", "output_string"]
     });
